@@ -6,34 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"name": "check1",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"name": "check2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "check3",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -64,7 +53,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Solidity fundamental/5.Modifier.sol": "demo"
+			"contracts/Solidity fundamental/5.Modifier.sol": "demo1"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
