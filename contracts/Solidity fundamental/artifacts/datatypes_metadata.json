@@ -151,11 +151,11 @@
 	},
 	"sources": {
 		"contracts/Solidity fundamental/2.Datatypes.sol": {
-			"keccak256": "0xaea3ade48e8e28acc7f6cb0ca10e9991b42f9f1ce4227eb344451bd7ec8f3940",
+			"keccak256": "0xa0245ea481db3e9995467a0fc694c70cb704d16e5d22c9673e01abb50401c516",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://14d64db73d8f67ff02c1a2bb6e63d54520374ebb1f02ffe3ff790b0958ab5133",
-				"dweb:/ipfs/QmR96hgG7AhXEw9PR6W4h6vp2tzsDpcKai3CDYk546ZyTR"
+				"bzz-raw://cde87aa1141459e40f0ef5836b01b5f80e39f7b35d5d50109c7cd798440834b3",
+				"dweb:/ipfs/QmXa9hq1k2PsuLhb19mfWchd6T3RuKWZ3KfjirCBJbCPYq"
 			]
 		}
 	},

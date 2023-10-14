@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Solidity fundamental/3.Conditionals&require.sol": "conditionalrequireuse"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Solidity fundamental/3.Conditionals&require.sol": {
+			"keccak256": "0xcb1f861a442d0180d200755d97e88e4461e9901190b3ba538d1b84fdcdc43ade",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f3a480a6f3e278e6f0860baefa5f032d1771f575945c877d53629e9190396ebe",
+				"dweb:/ipfs/QmfVnkUTyK6m8CVs1PYD53a1QjXS2McNbSvKRspfZaD95U"
+			]
+		}
+	},
+	"version": 1
+}
