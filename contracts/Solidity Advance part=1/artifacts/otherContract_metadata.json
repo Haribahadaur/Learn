@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Solidity Advance part=1/Visibility.sol": "otherContract"
+			"contracts/Solidity Advance part=1/1.Visibility.sol": "otherContract"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Solidity Advance part=1/Visibility.sol": {
+		"contracts/Solidity Advance part=1/1.Visibility.sol": {
 			"keccak256": "0x46785d5fc0ad5dc03a8fd08c3d32929cce9c05860685415c3e9503b74e1193a0",
 			"license": "GPL-3.0",
 			"urls": [
