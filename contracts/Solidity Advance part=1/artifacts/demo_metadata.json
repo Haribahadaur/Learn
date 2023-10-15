@@ -6,8 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "f1",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,20 +21,27 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "memoryArray",
+						"type": "uint256[3]"
+					}
+				],
+				"name": "memoryarr",
+				"outputs": [],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "f4",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "storagearr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Solidity Advance part=1/1.Visibility.sol": "demo"
+			"contracts/Solidity Advance part=1/3.MemoryVsStorage.sol": "demo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Solidity Advance part=1/1.Visibility.sol": {
-			"keccak256": "0x46785d5fc0ad5dc03a8fd08c3d32929cce9c05860685415c3e9503b74e1193a0",
+		"contracts/Solidity Advance part=1/3.MemoryVsStorage.sol": {
+			"keccak256": "0x49ffa85fc7857ea58218543270beb499966713701e62680d78f40c3ab052fa7b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c3a0a110a48b5c8ec39a67999ab2199a68cdf27bf7bc0ee21fda6b9d37fd7f03",
-				"dweb:/ipfs/Qmcjn4SVojhHiFAXYocJt83aeDf8uqPm8WsnVKQXEvG85b"
+				"bzz-raw://4f0bbe4c9cee6bcf848ed13608f2fb77516de134d34a898429da8c82358a4f2a",
+				"dweb:/ipfs/Qma6CnJ9EjNjXxUoeDKBd6is6nWTGT1WQKoN4UJZ5CZkkF"
 			]
 		}
 	},

@@ -25,41 +25,16 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256[3]",
-						"name": "br",
-						"type": "uint256[3]"
-					}
-				],
-				"name": "arraymultiplyby2",
+				"inputs": [],
+				"name": "arrayLength",
 				"outputs": [
 					{
-						"internalType": "uint256[3]",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint256[3]"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256[3]",
-						"name": "br",
-						"type": "uint256[3]"
-					}
-				],
-				"name": "arraymultiplyby3",
-				"outputs": [
-					{
-						"internalType": "uint256[3]",
-						"name": "",
-						"type": "uint256[3]"
-					}
-				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -85,11 +60,6 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "index",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
 						"name": "element",
 						"type": "uint256"
 					}
@@ -101,12 +71,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "popOperation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "returnAll",
 				"outputs": [
 					{
-						"internalType": "uint256[5]",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint256[5]"
+						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "view",
@@ -126,7 +103,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Solidity Advance part=1/2.ReferenceDataType.sol": "arraydemo"
+			"contracts/Solidity Advance part=1/4.Dynamic Array.sol": "arraydemo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -140,12 +117,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Solidity Advance part=1/2.ReferenceDataType.sol": {
-			"keccak256": "0xd9deda89c13f74e3c47b068586d463b6ae546de2eb50449ec2aa88c58029c65d",
+		"contracts/Solidity Advance part=1/4.Dynamic Array.sol": {
+			"keccak256": "0x6dc234b1de11f9e3e7138dd2dcf1d2701aeff86db2def3d818fa1b8f53a3fbbe",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e5a2279697fbb212cb74fe61f63aa2292970c95f7681024a823ec5e3998a9531",
-				"dweb:/ipfs/QmXKqbrWN2Ex6SpojaVRiFeeDMMUPxUXjZer2Kp5bKhPKf"
+				"bzz-raw://077058195dba1e947669e782824b8354a4fc5558cebd226e1aa4344bd5dc876c",
+				"dweb:/ipfs/QmNc3HzDiZ1NbscNRK6L7vdmww1FPj95aSVa4Na2vTywgP"
 			]
 		}
 	},
