@@ -8,40 +8,49 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "str2",
+						"type": "string"
 					}
 				],
-				"name": "arr",
+				"name": "operation",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256[3]",
-						"name": "memoryArray",
-						"type": "uint256[3]"
+						"internalType": "string",
+						"name": "str1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "str2",
+						"type": "string"
 					}
 				],
-				"name": "memoryarr",
-				"outputs": [],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "storagearr",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "stringconcat",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -58,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Solidity Advance part=1/3.MemoryVsStorage.sol": "demo"
+			"contracts/Solidity Advance part=1/5.String.sol": "demo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +81,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Solidity Advance part=1/3.MemoryVsStorage.sol": {
-			"keccak256": "0x49ffa85fc7857ea58218543270beb499966713701e62680d78f40c3ab052fa7b",
+		"contracts/Solidity Advance part=1/5.String.sol": {
+			"keccak256": "0xf8ac376fe859eefe208f542a55b534ae67522bad21d5b084a206c173172e0ee5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4f0bbe4c9cee6bcf848ed13608f2fb77516de134d34a898429da8c82358a4f2a",
-				"dweb:/ipfs/Qma6CnJ9EjNjXxUoeDKBd6is6nWTGT1WQKoN4UJZ5CZkkF"
+				"bzz-raw://0130775dd7c32ac6716adb8731aceb4594d967384e9ed6f455c56eeea888676b",
+				"dweb:/ipfs/QmeYAVs7RGCFKLLR7cU4gfegYqqdibHx9ejBd7bzG9ih2Y"
 			]
 		}
 	},
