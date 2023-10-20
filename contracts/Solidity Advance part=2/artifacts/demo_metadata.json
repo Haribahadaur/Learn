@@ -11,19 +11,14 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
 					}
 				],
-				"name": "data",
+				"name": "a",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -33,47 +28,13 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "key1",
+						"name": "index",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "key2",
-						"type": "string"
-					},
-					{
-						"internalType": "bool",
-						"name": "value",
-						"type": "bool"
 					}
 				],
-				"name": "insert",
+				"name": "deleteUse",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "key1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "key2",
-						"type": "string"
-					}
-				],
-				"name": "returnData",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -90,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Solidity Advance part=2/6.NestedMapping.sol": "demo"
+			"contracts/Solidity Advance part=2/8.Delete.sol": "demo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -104,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Solidity Advance part=2/6.NestedMapping.sol": {
-			"keccak256": "0xef028feb3d67ef238d8929cfeafa1038cb55abba4454710253a72e3723a01f63",
+		"contracts/Solidity Advance part=2/8.Delete.sol": {
+			"keccak256": "0x1ee5afef6621b6fa9688d6e8617fab05b62e2cffb7bd4b4353ac162a8071e61c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a8267f3c30e1dc1e7c213c160b050b021941d9c0e3a1f889604d8e6a41fe9311",
-				"dweb:/ipfs/QmXEAquQ1vzoN53F1EU7wXm97sDySinvD1QZApZkFJU9yz"
+				"bzz-raw://5fc619b9ed7138b1f139a30c63e50c292e8fd8a8eba85c33282182837ec22dff",
+				"dweb:/ipfs/QmVV7pJRABqssvWTfucbdWSse5fPS6LZQ5qf6ukndxnpGR"
 			]
 		}
 	},
