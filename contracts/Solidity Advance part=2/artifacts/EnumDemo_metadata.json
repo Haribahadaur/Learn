@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum EnumDemo.STATE",
+						"name": "value",
+						"type": "uint8"
+					}
+				],
+				"name": "checking",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "insert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnData",
+				"outputs": [
+					{
+						"internalType": "enum EnumDemo.STATE",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum EnumDemo.STATE",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Solidity Advance part=2/4.Enum.sol": "EnumDemo"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Solidity Advance part=2/4.Enum.sol": {
+			"keccak256": "0xa6b2baa23e63e9a181006691a70ccf9e165882024db99ae5514a217882819229",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3556319fd7697cb8b55b2322e3aa7def8307c202b9495052c41d94ea683c9ecc",
+				"dweb:/ipfs/QmWzX8pytGP9Rb8ZyHNEUzDaKPzSpn4kJVkuP3kBqvAWNY"
+			]
+		}
+	},
+	"version": 1
+}
