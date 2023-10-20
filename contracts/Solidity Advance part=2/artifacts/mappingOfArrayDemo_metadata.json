@@ -9,42 +9,13 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "key",
 						"type": "uint256"
 					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "data",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "key1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "key2",
-						"type": "string"
-					},
-					{
-						"internalType": "bool",
 						"name": "value",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
 				"name": "insert",
@@ -56,21 +27,45 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "key1",
+						"name": "key",
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
-						"name": "key2",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
 					}
 				],
 				"name": "returnData",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -90,7 +85,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Solidity Advance part=2/6.NestedMapping.sol": "demo"
+			"contracts/Solidity Advance part=2/5.Mapping.sol": "mappingOfArrayDemo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -104,12 +99,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Solidity Advance part=2/6.NestedMapping.sol": {
-			"keccak256": "0xef028feb3d67ef238d8929cfeafa1038cb55abba4454710253a72e3723a01f63",
+		"contracts/Solidity Advance part=2/5.Mapping.sol": {
+			"keccak256": "0xd3c5699fe5f0c6fe11fdb28af3f52a009588b9fe9750df3358a8aaee46858c87",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a8267f3c30e1dc1e7c213c160b050b021941d9c0e3a1f889604d8e6a41fe9311",
-				"dweb:/ipfs/QmXEAquQ1vzoN53F1EU7wXm97sDySinvD1QZApZkFJU9yz"
+				"bzz-raw://0cf41ea53072a2c09ad7d539bd0331b7c5873325b6df13f19a69b9f2ec9edbd9",
+				"dweb:/ipfs/Qmcj15r6ncZGyAAsiFN4pG1hLSDVKnm7tQPmJHaKFUBT24"
 			]
 		}
 	},
