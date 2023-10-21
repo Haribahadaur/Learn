@@ -6,35 +6,36 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "a",
+				"inputs": [],
+				"name": "addressOwner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "etherRecive",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "index",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "receiver",
+						"type": "address"
 					}
 				],
-				"name": "deleteUse",
+				"name": "sendEtherToUser",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -51,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Solidity Advance part=2/8.Delete.sol": "demo"
+			"contracts/Solidity Advance part=2/9.Payable.sol": "demo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -65,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Solidity Advance part=2/8.Delete.sol": {
-			"keccak256": "0x1ee5afef6621b6fa9688d6e8617fab05b62e2cffb7bd4b4353ac162a8071e61c",
+		"contracts/Solidity Advance part=2/9.Payable.sol": {
+			"keccak256": "0xad212c75f40229fa9b436d8c97a3932c2511f970bbe48fc7a5fe869ef11b6125",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5fc619b9ed7138b1f139a30c63e50c292e8fd8a8eba85c33282182837ec22dff",
-				"dweb:/ipfs/QmVV7pJRABqssvWTfucbdWSse5fPS6LZQ5qf6ukndxnpGR"
+				"bzz-raw://7e7fe1c8c61ae843e4ed9f18b8947de7b0b0862ffe1934bbe903f53f1bc4f597",
+				"dweb:/ipfs/QmbQWit7PA82HpqRBR2cMqiTCofcdn1DgNGZa9T8jH8faz"
 			]
 		}
 	},

@@ -9,3 +9,19 @@ contract demo{
         delete a[index];
     }
 }
+
+contract demo2{
+
+    struct student{
+        uint no;
+        string name;
+    }
+student public  s;
+    function add(uint _no, string memory _name)public{
+    s= student(_no,_name);
+    }
+
+    function remove()public {
+        delete s.name;
+    }
+}
